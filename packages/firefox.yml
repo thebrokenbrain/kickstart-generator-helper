@@ -1,0 +1,7 @@
+---
+name: Mozilla Firefox
+package_name: firefox
+description: Firefox is a web browser from Mozilla.
+third_party_repository: False
+rpm: False
+post: False

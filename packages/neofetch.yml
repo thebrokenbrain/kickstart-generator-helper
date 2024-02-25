@@ -1,0 +1,7 @@
+---
+name: Neofetch
+package_name: neofetch
+description: Neofetch is a command-line system information tool.
+third_party_repository: False
+rpm: False
+post: False

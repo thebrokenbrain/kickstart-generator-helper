@@ -1,0 +1,7 @@
+---
+name: VLC media player
+package_name: vlc
+description: VLC is a free and open-source media player.
+third_party_repository: False
+rpm: False
+post: False

@@ -1,0 +1,11 @@
+---
+name: MySQL Workbench Community
+package_name: mysql-workbench-community
+description: MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.
+third_party_repository: False
+rpm: True
+post: |
+  # MySQL Workbench Community
+  cd /var/tmp
+  wget https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.36-1.fc38.x86_64.rpm
+  dnf install mysql-workbench-community-*.rpm -y

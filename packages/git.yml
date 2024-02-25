@@ -1,0 +1,7 @@
+---
+name: Git
+package_name: git
+description: Git is a distributed version control system.
+third_party_repository: False
+rpm: False
+post: False

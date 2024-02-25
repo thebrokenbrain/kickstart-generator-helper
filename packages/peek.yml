@@ -1,0 +1,7 @@
+---
+name: Peek
+package_name: peek
+description: Peek is a simple animated GIF screen recorder with an easy to use interface.
+third_party_repository: False
+rpm: False
+post: False

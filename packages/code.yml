@@ -1,0 +1,12 @@
+---
+name: Visual Studio Code
+package_name: code
+description: Visual Studio Code is a source-code editor developed by Microsoft.
+third_party_repository: repo --name="vscode" --install --baseurl=https://packages.microsoft.com/yumrepos/vscode --cost=0
+rpm: False
+post: |
+  # Visual Studio Code
+  cat <<EOF >> /etc/yum.repos.d/vscode.repo
+  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  EOF
+  rpm --import https://packages.microsoft.com/keys/microsoft.asc

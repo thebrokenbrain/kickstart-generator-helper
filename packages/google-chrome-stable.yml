@@ -1,0 +1,12 @@
+---
+name: Google Chrome (stable)
+package_name: google-chrome-stable
+description: Google Chrome is a web browser from Google.
+third_party_repository: repo --name="google-chrome" --install --baseurl=https://dl.google.com/linux/chrome/rpm/stable/$basearch --cost=0
+rpm: False
+post: |
+  # Google Chrome
+  cat <<EOF >> /etc/yum.repos.d/google-chrome.repo
+  gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+  EOF
+  rpm --import https://dl-ssl.google.com/linux/linux_signing_key.pub

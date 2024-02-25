@@ -1,0 +1,7 @@
+---
+name: Btop
+package_name: btop
+description: Btop is a resource monitor that shows usage and stats for processor, memory, disks, network and processes.
+third_party_repository: False
+rpm: False
+post: False

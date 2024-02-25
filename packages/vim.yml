@@ -1,0 +1,7 @@
+---
+name: vim
+package_name: vim
+description: Vim is a highly configurable text editor built to enable efficient text editing.
+third_party_repository: False
+rpm: False
+post: False

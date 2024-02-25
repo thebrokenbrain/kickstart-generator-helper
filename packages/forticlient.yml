@@ -1,0 +1,12 @@
+---
+name: Forticlient
+package_name: forticlient
+description: FortiClient is a free endpoint protection suite that includes malware/virus detection, rootkit removal, parental web control, and VPN.
+third_party_repository: repo --name="fortinet" --install --baseurl=https://repo.fortinet.com/repo/forticlient/7.2/centos/8/os/$basearch --cost=0
+rpm: False
+post: |
+  # FortiClient
+  cat <<EOF >> /etc/yum.repos.d/fortinet.repo
+  gpgkey=https://repo.fortinet.com/repo/forticlient/7.2/centos/8/os/x86_64/RPM-GPG-KEY
+  EOF
+  rpm --import https://repo.fortinet.com/repo/forticlient/7.2/centos/8/os/x86_64/RPM-GPG-KEY

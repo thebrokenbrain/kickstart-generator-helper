@@ -1,0 +1,7 @@
+---
+name: Obs Studio
+package_name: obs-studio
+description: OBS Studio is software designed for capturing, compositing, encoding, recording, and streaming video content, efficiently.
+third_party_repository: False
+rpm: False
+post: False

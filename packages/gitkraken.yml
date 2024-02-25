@@ -1,0 +1,11 @@
+---
+name: GitKraken 
+package_name: gitkraken
+description: GitKraken is a Git client built on Electron.
+third_party_repository: False
+rpm: True
+post: |
+  # gitkraken
+  cd /var/tmp
+  wget https://release.gitkraken.com/linux/gitkraken-amd64.rpm
+  dnf install gitkraken-amd64.rpm -y

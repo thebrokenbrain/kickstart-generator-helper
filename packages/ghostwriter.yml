@@ -1,0 +1,7 @@
+---
+name: Ghostwriter
+package_name: ghostwriter
+description: Ghostwriter is a cross-platform, aesthetic, distraction-free Markdown editor.
+third_party_repository: False
+rpm: False
+post: False

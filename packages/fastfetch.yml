@@ -1,0 +1,7 @@
+---
+name: Fastfetch
+package_name: fastfetch
+description: Fastfetch is a system information tool written in C.
+third_party_repository: False
+rpm: False
+post: False

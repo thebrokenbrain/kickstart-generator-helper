@@ -1,0 +1,7 @@
+---
+name: pv
+package_name: pv
+description: pv (Pipe Viewer) is a terminal-based tool for monitoring the progress of data through a pipeline.
+third_party_repository: False
+rpm: False
+post: False
